@@ -1,0 +1,22 @@
+import Link from "next/link";
+
+const Background = () => {
+  return (
+    <main>
+      {" "}
+      <section className="flex flex-col items-center justify-center w-full uppercase space-y-12 p-8 text-center max-w-2xl pb-12 h-screen w-screen">
+        <h1 className="font-bold text-5xl">COMING SOON</h1>
+
+        <section className="flex flex row justify-center items-center space-x-4 w-full max-w-xl font-strong ">
+          <Link href="/">
+            <button className="border border-black bg-black text-white w-full text-sm p-2 px-4 uppercase">
+              GO BACK
+            </button>
+          </Link>
+        </section>
+      </section>
+    </main>
+  );
+};
+
+export default Background;
