@@ -22,7 +22,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full sticky top-0 z-10 ">
+    <header className="w-full sticky top-0 z-10 bg-white">
       <div className="flex flex-col px-4    bg-white sm:px-12 md:px-12 md:p-4 max-w-[1600px] mx-auto">
         <div className="flex items-center justify-between relative grid grid-cols-3 gap-auto">
           <div className="mobile flex items-left justify-left md:hidden w-full">
